@@ -5,22 +5,22 @@ import ProfileCard from './components/ProfileCard';
 const App = () => {
   const profiles = [
     {
-      name: "Kevin Comba",
+      name: "Eva Jones",
       age: 25,
-      profilePicture: "https://i.pravatar.cc/150?img=1",
-      bio: "Kevin is a software engineer from Argentina.",
+      profilePicture: "https://i.pravatar.cc/150?img=32",
+      bio: "Eva is a software engineer from Kenya.",
     },
     {
-      name: "Jane Comba",
+      name: "Dan Doe  ",
       age: 28,
-      profilePicture: "https://i.pravatar.cc/150?img=2",
-      bio: "Jane is a graphic designer from Argentina.",
+      profilePicture: "https://i.pravatar.cc/150?img=12",
+      bio: "Dan  is a graphic designer from Kenya.",
     },
     {
       name: "John Doe",
       age: 30,
       profilePicture: "https://i.pravatar.cc/150?img=3",
-      bio: "John is a project manager from Argentina.",
+      bio: "John is a project manager from Kenya.",
     },
   ];
 
@@ -37,7 +37,7 @@ const App = () => {
             bio={profile.bio}
           />
         ))}
-      </div>
+      </div> 
     </div>
   );
 };

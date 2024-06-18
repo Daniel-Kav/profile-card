@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './ProfileCard.css';
 
 const ProfileCard = ({ name, age, profilePicture, bio }) => (
