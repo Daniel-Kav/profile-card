@@ -10,10 +10,13 @@
     transition: 0.3s;
     max-width: 300px;
     background-color: #f9f9f9;
+    border: #61dafbaa solid 1px;
+    background-color: rgb(37, 47, 44);
 }
 
 .profile-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
 }
 
 .profile-picture {
@@ -33,5 +36,5 @@ h2 {
 p {
     font-size: 1.2em;
     margin: 5px 0;
-    color: black !important;
+    color: rgb(170, 161, 161) !important;
 }
